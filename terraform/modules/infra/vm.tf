@@ -29,7 +29,7 @@ resource "azurerm_virtual_machine" "vmcore" {
   os_profile {
     computer_name  = "${var.vmhostname}${format("%02d",count.index+1)}"
     admin_username = "testadmin"
-    admin_password = "Password1234!"
+    admin_password = ""
   }
   os_profile_windows_config {
    provision_vm_agent = true
@@ -41,6 +41,8 @@ resource "azurerm_virtual_machine" "vmcore" {
  }
  tags = "${merge(map(
    "Description", "${var.tags["environment"]} VM"),
+
    var.tags
 )}"
 }
+## "AutoShutdownSchedule","22:00 -> 06:00"

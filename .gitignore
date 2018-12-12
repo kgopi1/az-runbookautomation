@@ -2,5 +2,5 @@
 .tfstate
 .csv
 .json
-
+terraform.tfstate
 .terraform/
