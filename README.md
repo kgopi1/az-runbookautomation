@@ -20,3 +20,15 @@ This Azure Terraform repository will provision below resources
 ## Additional info :
 
 1. This repository having Runbook automation codes and disk encryption scripts (testing phase)
+
+## How to Connect Azure
+1. PowerShell - connect-azaccount
+2. AZ CLI - az login
+
+# How to execute the Disk encryption
+1. Goto encryption directory and execute ./disk-encryption.ps1
+
+## Release 2 Plan :
+1. Enable the Recovery Service Valult
+2. Enable the VM snapshot backup
+az

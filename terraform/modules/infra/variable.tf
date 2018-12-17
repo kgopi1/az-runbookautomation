@@ -9,6 +9,13 @@ variable "tags" {
   description = "Map of tags to be assigned to the resources"
 }
 variable "vmcount" {}
+variable "vmsize" {}
 variable "vmhostname" {}
+variable "winadmin" {}
+variable "winadminpwd" {}
+variable "publisher" {}
+variable "offer" {}
+variable "sku" {}
+variable "osversion" {}
 variable "disksgacct01" {}
 variable "ddiskcount" {}

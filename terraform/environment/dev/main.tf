@@ -9,6 +9,15 @@ module "infra" {
   tags = "${var.tags}"
   vmcount = "${var.vmcount}"
   vmhostname = "${var.vmhostname}"
+  vmsize = "${var.vmsize}"
+  winadmin = "${var.winadmin}"
+  winadminpwd = "${var.winadminpwd}"
+  ## OS image reference
+  publisher = "${var.publisher}"
+  offer = "${var.offer}"
+  sku = "${var.sku}"
+  osversion = "${var.osversion}"
+
   disksgacct01 = "${var.disksgacct01}"
   ddiskcount = "${var.ddiskcount}"
 }
