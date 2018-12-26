@@ -17,3 +17,14 @@ resource "azurerm_automation_account" "labrgautomation" {
 # data "local_file" "example" {
 #   filename = "${path.module}/example.ps1"
 # }
+JS-CMS-Resource
+CMT-Automation
+External_Start_ResourceGroupNames
+External_Stop_ResourceGroupNames
+External_ExcludeVMNames
+The server failed to authenticate the request. Verify that the certificate is valid and
+is associated with this subscription.
+
+
+## Internal_AzureSubscriptionId
+Internal_AutomationAccountName
