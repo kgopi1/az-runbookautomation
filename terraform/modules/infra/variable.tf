@@ -19,3 +19,5 @@ variable "sku" {}
 variable "osversion" {}
 variable "disksgacct01" {}
 variable "ddiskcount" {}
+variable "automationacct" {}
+variable "autosku" {}

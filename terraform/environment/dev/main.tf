@@ -20,4 +20,7 @@ module "infra" {
 
   disksgacct01 = "${var.disksgacct01}"
   ddiskcount = "${var.ddiskcount}"
+  automationacct = "${var.automationacct}"
+  autosku = "${var.autosku}"
+
 }

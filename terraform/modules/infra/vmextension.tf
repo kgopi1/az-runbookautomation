@@ -5,7 +5,7 @@
 
 resource "azurerm_virtual_machine_extension" "vmantivirus" {
   #name = "IaaSAntimalware"
-  name                 = "${var.vnetname}-vmantivirus"
+  name                 = "IaaSAntimalware"
   location             = "${var.rglocation}"
   resource_group_name  = "${var.rgname}"
   virtual_machine_name = "${azurerm_virtual_machine.vmcore.name}"
