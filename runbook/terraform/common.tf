@@ -1,7 +1,7 @@
 variable "tags" {
   default = {
     owner       = "Owner1"
-    email       = "Owner@sainsburys.co.uk"
+    email       = "Owner@owner.com"
     project     = "dev"
     environment = "dev"
     costcentre  = "XXXX"
